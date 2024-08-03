@@ -1,0 +1,975 @@
+/** @format */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+.nevbar {
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.jawanpakistan {
+  height: 50px;
+}
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  height: 70px;
+}
+.thirdforposititon {
+  display: flex;
+  align-items: center;
+}
+.childs p {
+  font-size: 25px;
+}
+.childs p:hover {
+  color: green;
+  cursor: pointer;
+}
+.childs {
+  display: flex;
+  gap: 15px;
+}
+.thirdforposititon p {
+  font-size: 25px;
+}
+.thirdforposititon p:hover {
+  color: green;
+  cursor: pointer;
+}
+.thirdforposititon {
+  display: flex;
+  gap: 30px;
+}
+.parent {
+  display: flex;
+  gap: 50px;
+}
+.downarrow {
+  height: 20px;
+}
+.forposi {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+.forposi:hover .position {
+  opacity: initial;
+}
+.left {
+  z-index: -1;
+}
+.position {
+  height: 280px;
+  width: 330px;
+  position: absolute;
+  top: 45px;
+  background-color: rgb(227, 226, 226);
+  box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.121);
+  display: flex;
+  gap: 27px;
+  padding-top: 12px;
+  flex-direction: column;
+  opacity: 0;
+  z-index: 0;
+}
+
+.position p {
+  font-size: 20px;
+}
+.first:hover {
+  background-color: green;
+  color: white;
+}
+.first p:hover {
+  color: white;
+}
+.first {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.second:hover {
+  background-color: green;
+  color: white;
+}
+.second p:hover {
+  color: white;
+}
+.second {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.third:hover {
+  background-color: green;
+  color: white;
+}
+.third p:hover {
+  color: white;
+}
+.third {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fourth:hover {
+  background-color: green;
+  color: white;
+}
+.fourth p:hover {
+  color: white;
+}
+.fourth {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.fifth:hover {
+  background-color: green;
+  color: white;
+}
+.fifth p:hover {
+  color: white;
+}
+.fifth {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.left {
+  width: 650px;
+  margin-left: 20px;
+}
+.left h1 {
+  line-height: 1.4;
+  color: green;
+  font-size: 36px;
+}
+.secondmain {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.secondchildimage {
+  height: 300px;
+  margin-right: 20px;
+  z-index: -1;
+}
+.thirdmainrightimage {
+  height: 350px;
+}
+.left p {
+  opacity: 0.5;
+  font-size: 17px;
+}
+.thirdmain {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, 0.276);
+}
+.siralimughalimage {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+}
+.forline {
+  width: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.732);
+  height: 3px;
+}
+.fourthmain {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  border: 1px solid black;
+  border: none;
+  border-bottom-color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.104);
+}
+.fourthmain p {
+  opacity: 0.5;
+}
+.fourthmain h1 {
+  color: green;
+  font-size: 40px;
+}
+.forpara {
+  width: 600px;
+  font-size: 20px;
+  text-align: center;
+}
+.forbr {
+  display: none;
+}
+.fifthmain {
+  padding-top: 160px;
+  box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.121);
+  padding-bottom: 100px;
+}
+.forahone {
+  text-align: center;
+}
+.forahone h1 {
+  color: green;
+  font-size: 50px;
+}
+
+.fifthchild {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 90px;
+}
+.fifthfirstchild {
+  height: 320px;
+  width: 350px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.589);
+  border-radius: 20px;
+  transition: all ease 0.7s;
+}
+.sixthchild {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 15px;
+}
+.fifthchldimage {
+  height: 80%;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.fifthfirstchild:hover {
+  transform: scale(105%);
+
+  box-shadow: 1px 1px 10px 9px rgba(0, 0, 0, 0.224);
+}
+.seventshmain {
+  color: green;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.rightseconddiv {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.bigforonetwo {
+  width: 620px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.childsfirst {
+  display: flex;
+  gap: 20px;
+}
+.childfirstdivs {
+  height: 200px;
+  width: 300px;
+}
+.childseconddivs {
+  height: 200px;
+  width: 300px;
+}
+.big {
+  width: 620px;
+  height: 400px;
+  margin-top: 20px;
+}
+.eightmaindiv {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 80px;
+}
+.ninthdiv {
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.071);
+
+  margin-top: 20px;
+}
+.form {
+  width: 600px;
+  box-shadow: 1px 1px 7px 8px rgba(0, 0, 0, 0.088);
+  box-sizing: 20px;
+  padding-bottom: 30px;
+  margin-top: 90px;
+}
+.form p {
+  color: gray;
+  font-size: 20px;
+}
+.form h1 {
+  color: gray;
+  margin-top: 30px;
+  margin-left: 44px;
+}
+span {
+  color: red;
+}
+.firstinpt {
+  width: 500px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.215);
+  border-radius: 5px;
+}
+.firstinpt:hover {
+  border: 1px solid rgba(0, 0, 255, 0.484);
+}
+.forflex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forjustify {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+input::placeholder {
+  padding-left: 20px;
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.773);
+}
+textarea {
+  margin: auto;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.215);
+  width: 510px;
+  height: 100px;
+}
+textarea:hover {
+  border: 1px solid rgba(0, 0, 255, 0.484);
+}
+button {
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+button:hover {
+  color: black;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.429);
+}
+.footer {
+  height: 200px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.071);
+}
+.forllineone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forllineone p:hover {
+  color: black;
+  cursor: pointer;
+}
+.forllineone p {
+  color: rgba(0, 128, 0, 0.79);
+}
+.forllineone h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: rgba(0, 100, 0, 0.861);
+}
+
+.forlinetwo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forlinetwo h4 {
+  font-size: 25px;
+  color: rgba(0, 100, 0, 0.861);
+}
+.forlinetwo p {
+  color: rgba(0, 128, 0, 0.79);
+}
+.forlinetwo p:hover {
+  color: black;
+  cursor: pointer;
+}
+.lastfoter {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(22, 164, 22, 0.233);
+}
+.lasttwo img:hover {
+  height: 30px;
+}
+.lastone {
+  margin-left: 20px;
+}
+.lastone p {
+  color: rgba(0, 0, 0, 0.549);
+}
+.lasttwo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+
+  justify-content: end;
+}
+.lasttwo img {
+  height: 20px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  /* body{
+  background-color: red;
+} */
+
+  .nevbar {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .thirdforposititon {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+  .childs {
+    display: flex;
+    gap: 15px;
+
+    align-items: center;
+  }
+  .thirdforposititon {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  .parent {
+    gap: 23px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 300px;
+    margin-left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left h1 {
+    line-height: 1.4;
+    color: green;
+    font-size: 35px;
+  }
+  .secondmain {
+    overflow: hidden;
+    margin-top: 180px;
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .secondchildimage {
+    height: 200px;
+    margin-right: 0px;
+  }
+  .thirdmainrightimage {
+    height: 250px;
+  }
+  .left p {
+    opacity: 0.5;
+    font-size: 17px;
+  }
+  .thirdmain {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, 0.276);
+    gap: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .position {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 45px;
+    background-color: rgb(227, 226, 226);
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.121);
+    display: flex;
+    gap: 15px;
+    padding-top: 0px;
+    flex-direction: column;
+    opacity: 0;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .position p {
+    font-size: 10px;
+  }
+  .first:hover {
+    background-color: green;
+    color: white;
+  }
+  .first p:hover {
+    color: white;
+  }
+  .first {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .second:hover {
+    background-color: green;
+    color: white;
+  }
+  .second p:hover {
+    color: white;
+  }
+  .second {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .third:hover {
+    background-color: green;
+    color: white;
+  }
+  .third p:hover {
+    color: white;
+  }
+  .third {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .fourth:hover {
+    background-color: green;
+    color: white;
+  }
+  .fourth p:hover {
+    color: white;
+  }
+  .fourth {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fifth:hover {
+    background-color: green;
+    color: white;
+  }
+  .fifth p:hover {
+    color: white;
+  }
+  .fifth {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .siralimughalimage {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  .forline {
+    width: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.732);
+    height: 3px;
+  }
+  .fourthmain {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+  .fourthmain p {
+    opacity: 0.5;
+  }
+  .fourthmain h1 {
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+  }
+  .forpara {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .forbr {
+    display: block;
+  }
+  .fourthmain {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid black;
+    border: none;
+    border-bottom-color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.104);
+  }
+  .fourthmain p {
+    opacity: 0.5;
+  }
+  .fourthmain h1 {
+    color: green;
+    font-size: 40px;
+  }
+  .forpara {
+    font-size: 20px;
+    text-align: center;
+  }
+  .forbr {
+    display: none;
+  }
+  .fifthmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.121);
+  }
+
+  .forahone {
+    text-align: center;
+  }
+
+  .forahone h1 {
+    color: green;
+    font-size: 40px;
+
+    width: 150px;
+    text-align: center;
+  }
+  .fifthchild {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 130px;
+
+    flex-direction: column;
+  }
+  .fifthfirstchild {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+    transition: all ease 0.7s;
+  }
+  .sixthchild {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 130px;
+
+    flex-direction: column;
+  }
+  .fifthchldimage {
+    height: 80%;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .fifthfirstchild:hover {
+    transform: scale(105%);
+
+    box-shadow: 1px 1px 10px 9px rgba(0, 0, 0, 0.224);
+  }
+  .seventshmain {
+    color: green;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  .rightseconddiv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bigforonetwo {
+    width: 130px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .childsfirst {
+    display: flex;
+    gap: 10px;
+  }
+  .childfirstdivs {
+    height: 60px;
+    width: 60px;
+  }
+  .childseconddivs {
+    height: 60px;
+    width: 60px;
+  }
+  .big {
+    width: 130px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  .eightmaindiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .ninthdiv {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.071);
+
+    margin-top: 20px;
+  }
+  .form {
+    width: 300px;
+    box-shadow: 1px 1px 7px 8px rgba(0, 0, 0, 0.088);
+    box-sizing: 20px;
+    padding-bottom: 30px;
+    margin-top: 90px;
+  }
+  .form p {
+    color: gray;
+    font-size: 20px;
+  }
+  .form h1 {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  span {
+    color: red;
+  }
+  .firstinpt {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.215);
+    border-radius: 5px;
+  }
+  .firstinpt:hover {
+    border: 1px solid rgba(0, 0, 255, 0.484);
+  }
+  .forflex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .forjustify {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+  }
+  input::placeholder {
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.773);
+  }
+  textarea {
+    margin: auto;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.215);
+    width: 250px;
+    height: 100px;
+  }
+  textarea:hover {
+    border: 1px solid rgba(0, 0, 255, 0.484);
+  }
+  button {
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+  }
+  button:hover {
+    color: black;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.429);
+  }
+  .footer {
+    height: 450px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .forllineone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 190px;
+  }
+  .forllineone p:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .forllineone p {
+    color: rgba(0, 128, 0, 0.79);
+  }
+  .forllineone h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgba(0, 100, 0, 0.861);
+  }
+
+  .forlinetwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  .forlinetwo h4 {
+    font-size: 20px;
+    color: rgba(0, 100, 0, 0.861);
+  }
+  .forlinetwo p {
+    color: rgba(0, 128, 0, 0.79);
+  }
+  .forlinetwo p:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .lastfoter {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 164, 22, 0.233);
+    flex-direction: column;
+    gap: 5px;
+  }
+  .lasttwo img:hover {
+    height: 23px;
+  }
+  .lastone {
+    margin-left: 5px;
+  }
+  .lastone p {
+    color: rgba(0, 0, 0, 0.549);
+  }
+  .lasttwo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 0px;
+
+    justify-content: end;
+    height: 30px;
+    width: 200px;
+    justify-content: center;
+  }
+  .lasttwo img {
+    height: 20px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+  }
+}
